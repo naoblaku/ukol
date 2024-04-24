@@ -1,0 +1,94 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background-color: rgb(231, 225, 225);
+}
+
+img {
+  width: 200px;
+  border-radius: 20%;
+  margin-top: 20px;
+}
+
+.jardacely {
+  width: 90%;
+  max-width: 800px;
+  padding: 20px;
+  margin: auto;
+  background-color: rgb(218, 214, 131);
+  box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-align: justify;
+}
+
+header {
+  text-align: center;
+}
+
+header h1 {
+  font-size: 30px;
+  padding: 10px;
+}
+
+header p {
+  color: white;
+  font-size: 25px;
+  margin-bottom: 15px;
+}
+
+h2 {
+  font-size: 20px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  border-bottom: 2px solid black;
+}
+
+a {
+  color: white;
+}
+
+ul {
+  list-style-type: none;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+td {
+  padding: 5px 8px;
+  border: 1px solid black;
+}
+
+input[type="text"],
+input[type="e-mail"],
+textarea {
+  width: 50%;
+  padding: 5px;
+  border-radius: 5px;
+  margin-bottom: 5px;
+  border: 1px solid black;
+}
+
+input[type="submit"] {
+  background-color: white;
+  color: black;
+  padding: 4px 16px;
+  border: none;
+  border-radius: 10px;
+  font-size: 15px;
+  border: 1px solid black;
+}
+
+input[type="submit"]:hover {
+  cursor: pointer;
+  background-color: black;
+  color: white;
+}
